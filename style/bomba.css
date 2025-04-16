@@ -1,0 +1,53 @@
+.bomba{
+        width: 450px;
+        height: 350px;
+        border-radius: 40px;
+        border: 1px solid ;
+       
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 1rem;
+        padding-block: 1rem;
+
+        input:nth-child(2){
+                width: 180px;
+                height: 40px;
+                background-color: rgba(0, 128, 0, 0.483);
+                border-radius: 20px;
+                border: none;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: rgb(0, 0, 0);
+        }
+        #btnAbtc{
+                width: 140px;
+                height: 40px;
+                border: none;       
+              
+        }
+        #btnAbtc:hover{
+                transition: 0.5s ease ;
+                border: 1px solid black;
+                cursor: pointer;
+        }
+}
+select{
+        width: 180px;
+        height: 28px;
+        text-align: center;
+        border-radius: 20px;
+        
+}
+
+ul{
+        list-style: none;
+        margin: auto;
+
+        b{
+                color: rgba(4, 50, 4, 0.644);
+        }
+}

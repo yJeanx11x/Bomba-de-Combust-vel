@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bomba.css" />
     <title>Bomba de Combustível</title>
   </head>
   <body>
+    <section class="bomba">
+      <h1 id="litros">0.00 L</h1>
+      <input type="text" id="money" placeholder="R$ 80,00 " required />
+      <select name="" id="">
+        <option value="Selecionar">Selecionar</option>
+        <option value="Gasolina">Gasolina</option>
+        <option value="Etanol">Etanol</option>
+        <option value="Diesel">Diesel</option>
+      </select>
 
-    <h1>0 L</h1>
-    <input type="number" id="money" placeholder="R$ 80,00 " />
-    <select name="" id="">
-      <option value="Selecionar">Selecionar</option>
-      <option value="Gasolina">Gasolina</option>
-      <option value="Etanol">Etanol</option>
-      <option value="Diesel">Diesel</option>
-</select>
-<input type="button" value="Abastecer" id="btnAbtc" />
-
+      <input type="button" value="Abastecer" id="btnAbtc" />
+      <ul>
+        <li><b>R$ 6.32</b> Gasolina</li>
+        <li><b>R$ 4.13</b> Etanol</li>
+        <li><b>R$ 3.55</b> Diesel </li>
+      </ul>
+    </section>
     <script src="script/script.js"></script>
   </body>
 </html>
